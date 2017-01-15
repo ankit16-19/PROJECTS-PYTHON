@@ -83,9 +83,9 @@ def notification():
 	title_text = browser.find_element_by_xpath("/html/body/div/div[2]/table/tbody/tr/td/div").text
 	print (title_text)
 
-#notification()
 
-#	subject(2,1)
+notification()
+#subject(2,1)
 #pseudofeedback(2,1)
 
 
