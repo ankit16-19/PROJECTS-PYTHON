@@ -85,8 +85,8 @@ def notification():
 
 
 notification()
-#subject(2,1)
-#pseudofeedback(2,1)
+subject(2,1)
+pseudofeedback(2,1)
 
 
 browser.close()
