@@ -101,11 +101,9 @@ def attendence(currsemester,semester):
 
 
 attendence(2,1)
-#notification()
-
-
-#	subject(2,1)
-#pseudofeedback(2,1)
+notification()
+subject(2,1)
+pseudofeedback(2,1)
 
 
 browser.close()
