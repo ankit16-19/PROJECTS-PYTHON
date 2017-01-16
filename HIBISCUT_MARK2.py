@@ -8,8 +8,8 @@ uid = browser.find_element_by_name('uid')
 pwd = browser.find_element_by_name('pwd')
 txtInput = browser.find_element_by_name('txtInput')
 #******************details******************
-userid = "B216008"
-password = "Ankit16@d"
+userid = "+XXXXX"
+password = "+XXXX"
 captcha = browser.find_element_by_id('txtCaptcha').get_attribute("value")
 #*****************filling details**********
 uid.send_keys(userid)
