@@ -155,8 +155,8 @@ def notification():
 	 
 			
 		client.messages.create(
-	    	to="+919937786001", 
-	    	from_="+15097613352", 
+	    	to="x++++++++++", 
+	    	from_="x++++++++++", 
 	    	body=mssg_to_send 
 	    	#media_url=current_url, 
 			)	
