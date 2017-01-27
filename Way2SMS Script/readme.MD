@@ -18,9 +18,9 @@
 
 Do not alter the following parameters of the `#send sms` section.
 
-`url_send = 'http://site24.way2sms.com/smstoss.action'
+`url_send = 'http://site24.way2sms.com/smstoss.action'`
 
-referer_send='http://site24.way2sms.com/sendSMS?Token='+Token`
+`referer_send='http://site24.way2sms.com/sendSMS?Token='+Token`
 
 ###2. Source CSV file is mandatory.
 * A source CSV file which contains all the name and numbers needs to be present for the script to work. To create a CSV file in a text editor, use the following format:
