@@ -19,6 +19,7 @@
 Do not alter the following parameters of the `#send sms` section.
 
 `url_send = 'http://site24.way2sms.com/smstoss.action'
+
 referer_send='http://site24.way2sms.com/sendSMS?Token='+Token`
 
 ###2. Source CSV file is mandatory.
