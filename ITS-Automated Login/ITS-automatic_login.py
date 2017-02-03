@@ -16,10 +16,16 @@ if(login_req_url!="http://www.iiit-bh.ac.in/"):
 		login_form = {
 		"4Tredir":"http://www.iiit-bh.ac.in/",
 		"magic":magic_token,
-		"username":"+xxxxx",
-		"password":"+xxxxx"
+		"username":"B116029",
+		"password":"B116029"
 		}
+
 		login = s.post(url = login_url,data = login_form,headers={'referer':referer})
-		if(login.['content-length']!=1559)
+		if(login.headers['Content-Length']!=1559):
 			print "success" + " " +  time.strftime("%I:%M:%S") + " " + time.strftime("%d/%m/%Y")
+		else:
+			print "Target overflow" + " " + time.strftime("%I:%M:%S")	+ " " + time.strftime("%d/%m/%Y")
+
+
+	
 
