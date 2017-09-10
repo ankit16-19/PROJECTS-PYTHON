@@ -1,8 +1,8 @@
-#Way2SMS Python Script
+# Way2SMS Python Script
 
-###Python script to send SMS to any number within Indian subcontinent using Way2SMS.
+### Python script to send SMS to any number within Indian subcontinent using Way2SMS.
 
-####1. Parameters that need to be changed 
+#### 1. Parameters that need to be changed 
 * Your Way2SMS Username and Password in the 
 
 `login_form_data={
